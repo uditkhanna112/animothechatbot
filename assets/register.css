@@ -1,0 +1,18 @@
+.container{
+	margin-top: 20px;
+}
+body{
+	 background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('d4.jpg') no-repeat center center ;
+	 margin: 0px;
+    padding: 0px;
+}
+label{
+	color: white;
+}
+form{
+background: rgba(120, 109, 118, 0.2);
+padding: 20px;
+width: 50%;
+margin: 0 auto;
+}
+

@@ -1,0 +1,81 @@
+
+<html>
+<head>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="/assets/register.css">
+	<script type="text/javascript" src="/assets/register.js"></script>
+	<title></title>
+</head>
+
+
+<body>
+<div class="container">
+
+
+	
+
+		<form method="POST" action="/login" onsubmit = "return(validate());">
+	
+	<div class="form-group row">
+    <label for="name" class="col-lg-4 col-md-4 col-sm-4 col-form-label">Name</label>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+    </div>
+  </div>
+
+	<div class="form-group row">
+    <label for="email" class="col-lg-4 col-md-4 col-sm-4 col-form-label">Email</label>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="username" class="col-lg-4 col-md-4 col-sm-4 col-form-label">UserName</label>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <input type="text" class="form-control" id="username" name="username" placeholder="UserName" required>
+    </div>
+  </div>
+
+
+			<div class="form-group row">
+    <label for="age" class="col-lg-4 col-md-4 col-sm-4 col-form-label">Age</label>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <input type="number" min="5" max="100" class="form-control" name="age" id="age" placeholder="Age">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="password1" class="col-lg-4 col-md-4 col-sm-4 col-form-label">Password</label>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <input type="password" class="form-control " id="password" name="password" placeholder="Password" required>
+    </div>
+  </div>
+
+
+  <div class="form-group row">
+    <label for="password2" class="col-lg-4 col-md-4 col-sm-4 col-form-label">Re-Type Password</label>
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <input type="password" class="form-control" id="password2" name="pass2" placeholder="Re-Type Password"required >
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <button type="submit" class="btn btn-primary">Sign up</button>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6">
+      <a href="/auth/facebook">Login with Facebook</a>
+  
+    </div>
+  </div>
+		</form>
+	
+	</div>
+</body>
+</html>

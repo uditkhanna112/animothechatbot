@@ -1,0 +1,33 @@
+		body{
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("wp1927652.jpg");
+		background-position: center;
+			background-repeat:  no-repeat;
+			background-size:  cover;
+			width: 100%;
+		
+		}
+		h1{
+			color: white;
+			margin-top: 30px;
+			padding: 20px;
+
+		}
+		p{
+			color: white;
+			font-family: sans-serif;
+			padding: 20px;
+
+		}
+		#hea{
+			font-size: 75px;
+			font-weight: bold;
+
+			font-family: jomolhari;
+			font-style: italic;
+			text-align: center;
+		}
+	.col-md-6{
+		background-color: rgba(0,0,0,0.5);
+		border-radius: 20px;
+		padding: 5px;
+	}
